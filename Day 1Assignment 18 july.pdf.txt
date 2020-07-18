@@ -1,0 +1,50 @@
+Day 1/Assignment 1/18 july:
+
+Que 1. What is your understanding of Blockchain?
+Ans: Blockchain is the mixture of distributed database & cryptography technology
+Blockchain is a decentralized distributed ledger that consist of chained blocks of records.
+It consist of immutable, tamper resistant and permanent records in chronological order.
+Blockchain gives huge security boost to the system.
+Blockchain is chain of blocks where each block has its, record, previous block, signature & mining key.
+Data transparency can also be achieved.
+It can be used in many fields where the copy of the data is to maintained regularly and so that if there is a change of data or hacking occurred in one node, then the data can be collected from other nodes and the hacked node can be recovered easily.
+
+Que 2. What is the core problem, blockchain trying to solve ?
+Ans:
+There are some core problems in blockchain are as follows:
+1.Block chain can be slow while Transactions can take a while to process when the user number increases.
+2.Authenticity and Security.
+4.Need of third party trust:Organization must determine which transactions or interactions the blockchain should capture and who should have access to which portions.
+5.solved with the help of blockchain such as, double spending problem, transparent supply chain management.
+
+Que 3. Few features of Blockchain.
+Ans: Features:
+Security
+Tamper proof
+Verifiable
+Unchangeable
+Transparent
+Secure
+Decentralized
+Distributed Ledger
+Immutable
+
+Que 4. What does a block contain ?
+Ans:
+1.Block number
+2.Transaction Records (Data)
+3.Previous Hash Key
+4.Mining Key
+
+Que 5. How is the verifiability of blockchain is been attained? 
+Ans:
+As the Blockchain is based on distributed database so if someone changes the data in one block, it should be changed into other blocks. So by this technique one can verify that the data has been changed.
+
+Genesis Block /Block 1
+0 + new data = Fingerprint 1
+
+Block 2
+Fingerprint 1 + new data = Fingerprint 2
+
+and this chain continues.
+blockchain is been attained.
