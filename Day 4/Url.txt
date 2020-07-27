@@ -1,0 +1,12 @@
+Metadata of "reportcard" was published successfully.
+browser/Day4.sol : 
+bzz-raw://646127b0490c72ba9ac275341f34ac2b987ed1b41c0f1a96bffc5d55ff7a191b
+metadata.json : 
+bzz-raw://5ef14236ca6422429186b335a905ebdcd169e36eb3c636eae93bc53c579eef40
+
+
+Metadata of "reportcard" was published successfully.
+browser/Day4.sol : 
+dweb:/ipfs/QmfCk9wFSjXhJELev8mmnXBpKT21swfnobG4YnXXCeoHKg
+metadata.json : 
+dweb:/ipfs/QmVMb7sQ2qaDLRZAL9iLiCp2dEREMTi456AbxPbyKztc26
