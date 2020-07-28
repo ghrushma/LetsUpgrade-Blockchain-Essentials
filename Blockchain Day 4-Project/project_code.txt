@@ -1,0 +1,56 @@
+ solidity code for smart contract on report card.sol
+pragma solidity ^0.4.17 <0.7.0;
+
+contract ReportCard{
+    
+    string public StudentName;
+    string public StudentRollNo;
+    string public StudentBatch;
+    uint256 public StudMarksSub1;
+    uint256 public StudMarksSub2;
+    uint256 public StudMarksSub3;
+    uint256 public StudMarksSub4;
+    string public StudentStatus;
+    
+    function ReportCard(string newStudentName,string newStudentRollNo,string newStudentBatch,uint256 newStudMarksSub1,uint256 newStudMarksSub2,uint256 newStudMarksSub3,uint256 newStudMarksSub4,string newStudentStatus)public{
+        StudentName = newStudentName;
+        StudentRollNo = newStudentRollNo;
+        StudentBatch = newStudentBatch;
+        StudMarksSub1 = newStudMarksSub1;
+        StudMarksSub2 = newStudMarksSub2;
+        StudMarksSub3 = newStudMarksSub3;
+        StudMarksSub4 = newStudMarksSub4;
+        StudentStatus = newStudentStatus;
+    }
+    
+    function setDetails(string newStudentName,string newStudentRollNo,string newStudentBatch,uint256 newStudMarksSub1,uint256 newStudMarksSub2,uint256 newStudMarksSub3,uint256 newStudMarksSub4,string newStudentStatus)public{
+        StudentName = newStudentName;
+        StudentRollNo = newStudentRollNo;
+        StudentBatch = newStudentBatch;
+        StudMarksSub1 = newStudMarksSub1;
+        StudMarksSub2 = newStudMarksSub2;
+        StudMarksSub3 = newStudMarksSub3;
+        StudMarksSub4 = newStudMarksSub4;
+        StudentStatus = newStudentStatus;
+    }
+    
+    function getDetails() public view returns(string,string,string,uint256,uint256,uint256,uint256,string)
+    {
+        return (StudentName,StudentRollNo,StudentBatch,StudMarksSub1,StudMarksSub2,StudMarksSub3,StudMarksSub4,StudentStatus);
+    }
+  }
+
+Account- 0x687422eEA2cB73B5d3e242bA5456b782919AFc85
+
+Transaction Hash- 0x6f843483383698259de985d284003f20d60bf39aed4ba601cb140f8a881c4771
+
+From:0xa974f82cb3c0c72d2f3bc31a2ea441dffbdab7e7 
+
+To:0x591b287cf80e01a3176f70b40365ef01ebb89373
+
+
+Test Deployment of the Smart Contract can be found in
+ 0x687422eEA2cB73B5d3e242bA5456b782919AFc85
+
+Creation of ReportCard -
+https://ropsten.etherscan.io/tx/0x6f843483383698259de985d284003f20d60bf39aed4ba601cb140f8a881c4771
